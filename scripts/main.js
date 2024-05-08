@@ -27,3 +27,6 @@ function displayTeamMembers() {
     // Inserimento dell'HTML accumulato nel body della pagina
     document.body.innerHTML = html;
   }
+  
+  // Chiamata della funzione per visualizzare i membri del team in pagina
+  displayTeamMembers();
