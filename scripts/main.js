@@ -10,9 +10,14 @@ const team = [
 
 // Ciclo for per iterare attraverso l'array 'team'
 for (let i = 0; i < team.length; i++) {
-    // Costruzione della stringa di output per il membro corrente
-    const output = `Nome: ${team[i].nome}, Ruolo: ${team[i].ruolo}`;
-    // Stampa della stringa in console
-    console.log(output);
+    console.log(`Nome: ${team[i].nome}, Ruolo: ${team[i].ruolo}`);
   }
-  
+
+  // Milestone 2: Stampa in pagina nome, ruolo e immagine di ogni membro del team
+function displayTeamMembers() {
+    let html = '';  // Stringa vuota per accumulare l'HTML di tutti i membri
+    for (let i = 0; i < team.length; i++) {
+
+    }
+
+  }
