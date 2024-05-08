@@ -24,5 +24,6 @@ function displayTeamMembers() {
                 <img src="${team[i].foto}" alt="Foto di ${team[i].nome}">
               </div>`;
     }
-
+    // Inserimento dell'HTML accumulato nel body della pagina
+    document.body.innerHTML = html;
   }
