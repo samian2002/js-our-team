@@ -17,7 +17,12 @@ for (let i = 0; i < team.length; i++) {
 function displayTeamMembers() {
     let html = '';  // Stringa vuota per accumulare l'HTML di tutti i membri
     for (let i = 0; i < team.length; i++) {
-
+      // Costruzione dell'HTML per il membro corrente
+      html += `<div>
+                <h2>${team[i].nome}</h2>
+                <p>Ruolo: ${team[i].ruolo}</p>
+                <img src="${team[i].foto}" alt="Foto di ${team[i].nome}">
+              </div>`;
     }
 
   }
