@@ -1,0 +1,3 @@
+M0) Inizializzo un array che contiene gli oggetti (nome, ruolo, foto) che rappresentano ogni membro del team.
+M1) Devo assicurarmi che gli oggetti rappresentino i memebri del team, utilizzerò un ciclo per scorrere tra gli oggetti presenti nell'array. Stamperò gli elementi in console per verificare la correttezza dei dati e se il ciclo funziona.
+M2) Creo una funzione che genera il codice HTML che contiene le informazioni del membro.
