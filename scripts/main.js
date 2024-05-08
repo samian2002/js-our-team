@@ -14,11 +14,11 @@ for (let i = 0; i < team.length; i++) {
   }
 
   // Milestone 2: Stampa in pagina nome, ruolo e immagine di ogni membro del team
-function displayTeamMembers() {
+  function displayTeamMembers() {
     let html = '';  // Stringa vuota per accumulare l'HTML di tutti i membri
     for (let i = 0; i < team.length; i++) {
       // Costruzione dell'HTML per il membro corrente
-      html += `<div>
+      html += `<div class="card">
                 <h2>${team[i].nome}</h2>
                 <p>Ruolo: ${team[i].ruolo}</p>
                 <img src="${team[i].foto}" alt="Foto di ${team[i].nome}">
@@ -30,3 +30,4 @@ function displayTeamMembers() {
   
   // Chiamata della funzione per visualizzare i membri del team in pagina
   displayTeamMembers();
+  
